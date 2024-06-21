@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmarker</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container pt-2 text-center">
+        <h1 class="py-2 ">Bookmarker</h1>
+        <hr>
+        <div class="form-project mx-5 text-center py-4 " >
+        <h2 class="pt-2 text-muted"> Bookmark your favorite sites </h2>
+        <div class="form-groub">
+            <label class=" font-weight-bold py-2" for="">Site Name:</label>
+            <br>
+            <input id="name" type="text" class="form-control w-100" placeholder="Bookmarker Name" >
+        </div>
+        <div class="form-groub">
+            <label class=" font-weight-bold py-2" for="">Site URL:</label>
+            <br>
+            <input id="url" type="text" class="form-control w-100" placeholder="WebSite URL" >
+        </div>
+        <button  class="btn btn-primary px-4 my-4 "  id="addbtn">Submit</button>
+    </div>
+    <input onkeyup="search(this.value)" type="text" name="" id="" class="my-3 form-control" placeholder="search by Bookmarker Name">
+    <div class="output ">
+        <table class="table ">
+            <tbody id="tableBody">
+
+            </tbody>
+        </table>
+    </div>
+    
+
+
+
+</div>
+
+
+
+
+
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
